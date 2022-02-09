@@ -1,3 +1,57 @@
 :root {
+  /* Fonts Family */
+  --logo-font-txt: 'Raleway', sans-serif;
+  --main-font-txt: 'Roboto', sans-serif;
+  /* Colors Txt */
   --accent-color: #2196f3;
+  --main-txt-color: #757575;
+  --secondary-txt-color: #212121;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* Header Logo */
+.logo-link {
+  font-family: var(--logo-font-txt);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.header-logo {
+  color: #000000;
+}
+
+/* Header Link */
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-color);
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-color);
 }
