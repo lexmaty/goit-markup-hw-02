@@ -9,6 +9,7 @@
   --hero-txt-color: #ffffff;
   --footer-main-txt-color: #ffffff;
   --footer-secondary-txt-color: rgba(255, 255, 255, 0.6);
+  --hover-btn-txt-color: #ffffff;
   /* background colors */
   --main-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
@@ -193,4 +194,38 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-txt-color);
+}
+
+/* Portfolio.html */
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-txt-color);
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  color: var(--hover-btn-txt-color);
+  background-color: var(--accent-bg-color);
+}
+
+/* Project list */
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-txt-color);
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--main-txt-color);
 }
