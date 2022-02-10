@@ -91,6 +91,15 @@ body {
   color: var(--main-txt-color);
 }
 
+.nav-link-current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-txt-color);
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .header-contact:hover,
