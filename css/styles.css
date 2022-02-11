@@ -47,12 +47,6 @@ body {
   list-style: none;
 }
 
-.main-btn {
-  font-family: var(--main-font-txt);
-
-  cursor: pointer;
-}
-
 /* Header 
    Header Logo*/
 .header {
@@ -124,6 +118,7 @@ body {
 }
 
 .hero-btn {
+  font-family: var(--main-font-txt);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -131,6 +126,8 @@ body {
 
   background-color: var(--accent-bg-color);
   color: var(--hero-txt-color);
+
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -207,12 +204,15 @@ body {
 
 /* Portfolio.html */
 .filters-btn {
+  font-family: var(--main-font-txt);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
 
   color: var(--secondary-txt-color);
+
+  cursor: pointer;
 }
 
 .filters-btn:hover,
